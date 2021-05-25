@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that at least the following modules are visible: Discovery</description>
+        <display_name>Module Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Module Visibility">f7cfc1973702030064a52f3c8e41f1d3</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 11:27:35</sys_created_on>
+        <sys_id>846029182f103010924fe93df699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Module Visibility</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_846029182f103010924fe93df699b699</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 11:27:35</sys_updated_on>
+        <table/>
+        <test display_value="rodrigo - module">c61065182f103010924fe93df699b64e</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=846029182f103010924fe93df699b699"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>846029182f103010924fe93df699b699</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 11:27:35</sys_created_on>
+        <sys_id>1a70e5182f103010924fe93df699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 11:27:35</sys_updated_on>
+        <value>at_least_modules_not_visible</value>
+        <variable display_value="Not visible assert type">8570e0e33756030064a52f3c8e41f16c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>846029182f103010924fe93df699b699</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 11:27:35</sys_created_on>
+        <sys_id>9e70e5182f103010924fe93df699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 11:27:35</sys_updated_on>
+        <value>c93e9d942f103010924fe93df699b669</value>
+        <variable display_value="Visible modules">4a3319d73702030064a52f3c8e41f1a9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>846029182f103010924fe93df699b699</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 11:27:35</sys_created_on>
+        <sys_id>da70e5182f103010924fe93df699b6c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 11:27:35</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible modules">932d14a33756030064a52f3c8e41f120</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>846029182f103010924fe93df699b699</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-19 11:27:35</sys_created_on>
+        <sys_id>de70e5182f103010924fe93df699b6c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-19 11:27:35</sys_updated_on>
+        <value>at_least_modules_visible</value>
+        <variable display_value="Visible assert type">90749dd73702030064a52f3c8e41f12d</variable>
+    </sys_variable_value>
+</record_update>
